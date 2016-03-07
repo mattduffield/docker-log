@@ -1,0 +1,24 @@
+{
+  "name": "docker-log",
+  "version": "1.0.0",
+  "description": "This is a sample loggin app using MQTT ready for Docker.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattduffield/docker-log.git"
+  },
+  "author": "Matt Duffield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattduffield/docker-log/issues"
+  },
+  "homepage": "https://github.com/mattduffield/docker-log#readme",
+  "dependencies": {
+    "mqtt": "^1.7.2",
+    "winston": "^2.2.0"
+  }
+}
